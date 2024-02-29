@@ -5,13 +5,14 @@ body {
     margin-right: auto;
 }
 
-h1 {
+.titulo {
+    font-size: 32px;
     color: "#3d3d3d";
     background-color: #E1EDF2;
     padding: 10px;
 }
 
-h2 {
+.subtitulo {
     border-bottom: 2px solid black;
 }
 
@@ -28,10 +29,25 @@ figure {
 figcaption{
     margin-top: 10px;
 }
-img{
+figure img{
     align-self: center;
+    width: 100%;
 }
 
 p {
     text-indent: 30 px;
 }
+
+.matriz-musidot {
+    width: 550px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.familia-tupfeln {
+    float: right;
+    width: 275px;
+}
+
