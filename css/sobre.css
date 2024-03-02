@@ -7,13 +7,39 @@ body {
 
 .titulo {
     font-size: 32px;
-    color: "#3d3d3d";
+    color: #3d3d3d;
     background-color: #E1EDF2;
     padding: 10px;
 }
 
 .subtitulo {
     border-bottom: 2px solid black;
+}
+
+.contato_subtitulo {
+    display: inline;
+    font-size: 18px;
+    color: #3d3d3d;
+}
+.contato_info {
+    display: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato_info-titulo, .contato_info-descricao {
+    display: inline;
+}
+
+.contato_info-descricao {
+    margin-left: 10px;
+}
+.contato_secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+.contato_secao-telefone {
+    margin-left: 32px;
 }
 
 figure {
